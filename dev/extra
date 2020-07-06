@@ -1,0 +1,120 @@
+<section class= "grid-container">
+    <div class="grid-container">
+        <div class="grid-item"><img src="img/brands/nudie-logo.jpg" alt='nu logo'></div>
+            
+        </section>
+        <section id= "l2-container">
+            <img src="img/brands/noah-logo.jpg" alt='no logo'>
+        </section>
+        <section id= "l3-container">
+            <img src="img/brands/A-logo.jpg" alt='a logo'>
+        </section>
+
+
+        <section id= "nu1-container">
+            <img src="img/shop/nudie-1.jpg" alt='nu row1'>
+        </section>
+        <section id= "no1-container">
+            <img src="img/shop/noah-1.jpg" alt='no row1'>
+        </section>
+        <section id= "a1-container">
+            <img src="img/shop/a1.jpg" alt='a row1'>
+        </section>
+
+
+        <section id= "nu2-container">
+            <img src="img/shop/nudie-2.jpg" alt='nu row2'>
+        </section>
+        <section id= "no2-container">
+            <img src="img/shop/noah-2.jpg" alt='no row2'>
+        </section>
+        <section id= "a2-container">
+            <img src="img/shop/a2.jpg" alt='a row2'>
+        </section>
+
+
+        <section id= "nu3-container">
+            <img src="img/shop/nudie-3.jpg" alt='nu row3'>
+        </section>
+        <section id= "no3-container">
+            <img src="img/shop/noah-3.jpg" alt='no row3'>
+        </section>
+        <section id= "a3-container">
+            <img src="img/shop/a3.jpg" alt='a row3'>
+        </section>
+    </div>
+</section>
+
+class
+
+section{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+                        repeat(3, 1fr)
+                        repeat(3, 1fr)
+                        repeat(3, 1fr);
+
+    grid-template-areas: "l1 l2 l3
+                        nu1 no1 a1
+                        nu2 no2 a2
+                        nu3 no3 a3
+                        nb1 b2 b3";
+
+    div{
+        section{
+
+            #l1-container{
+                grid-area: l1;
+            }
+
+            #l2-container{
+                grid-area: l2;
+            }
+
+            #l3-container{
+                grid-area: l3;
+            }
+
+
+            #nu1-container{
+                grid-area: nu1;
+            }
+
+            #no1-container{
+                grid-area: no1;
+            }
+
+            #a1-container{
+                grid-area: a1;
+            }
+
+
+            #nu2-container{
+                grid-area: nu2;
+            }
+
+            #no2-container{
+                grid-area: no2;
+            }
+
+            #a2-container{
+                grid-area: a2;
+            }
+
+
+            #nu3-container{
+                grid-area: nu3;
+            }
+
+            #no3-container{
+                grid-area: no3;
+            }
+
+            #a3-container{
+                grid-area: a3;
+            }
+        
+        }
+    }
+}

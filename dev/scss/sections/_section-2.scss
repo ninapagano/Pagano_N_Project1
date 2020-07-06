@@ -1,0 +1,18 @@
+/* =============
+    Home Image
+============= */
+section{
+    div{
+        #grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+            padding: 10px;
+            }
+        
+            .item1 {
+            grid-column-start: 1;
+            grid-column-end: 1;
+            }
+    }
+}
