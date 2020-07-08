@@ -1,18 +1,83 @@
 /* =============
     Home Image
 ============= */
-section{
-    div{
-        #grid-container {
+#index-brands{
+    >div{
+        ul{
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: repeat (3,1fr);
+            grid-template-areas: "l1 l2 l3"
+                                "nu1 no1 a1"
+                                "nu2 no2 a2"
+                                "nu3 no3 a3";
+                                /*"nb1 b2 b3"*/
             grid-gap: 10px;
             padding: 10px;
+            
             }
         
-            .item1 {
-            grid-column-start: 1;
-            grid-column-end: 1;
+            li {
+                display:flex;
+                justify-content: center;
+                align-items: center;
+           }
+
+           li:nth-child(1) {
+               grid-area: l1;
             }
+
+           li:nth-child(2) {
+                grid-area: l2;
+            }
+
+            li:nth-child(3) {
+                grid-area: l3;
+            }
+
+            li:nth-child(4) {
+                grid-area: nu1;
+            }
+
+            li:nth-child(5) {
+                grid-area: no1;
+            }
+            li:nth-child(6) {
+                grid-area: a1;
+            }
+            li:nth-child(7) {
+                grid-area: nu2;
+            }
+
+            li:nth-child(8) {
+                grid-area: no2;
+            }
+ 
+            li:nth-child(9) {
+                 grid-area: a2;
+            }
+ 
+            li:nth-child(10) {
+                 grid-area: nu3;
+            }
+ 
+            li:nth-child(11) {
+                 grid-area: no3;
+            }
+ 
+            li:nth-child(12) {
+                 grid-area: a3;
+            }
+
+            /*li:nth-child(13) {
+                 grid-area: nu4;
+            }
+
+            li:nth-child(14) {
+                 grid-area: no4;
+            }
+
+            li:nth-child(15) {
+                grid-area: a4;
+            }*/
     }
 }

@@ -2,24 +2,7 @@
     Section 1
 ============= */
 section{
-    padding: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "p1 p2";
-
-    div{
-
-        #p1-container{
-            grid-area: p1;
-            font-size: 15px;
-            font-family: 'PT Mono', monospace;
-        }
-
-        #p2-container{
-            grid-area: p2;
-            font-size: 15px;
-            font-family: 'PT Mono', monospace;
-        }
+    >div{
 
         h1{
             display: flex;
@@ -40,11 +23,35 @@ section{
             font-family: 'PT Mono', monospace;
         }
 
-        h4{
-            font-size: 50px;
+        #paragraph-space{
+            padding: 30px;
+            grid-gap: 30px;
+            padding-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "p1 p2";
+            font-size: 15px;
             font-family: 'PT Mono', monospace;
-        }
+            >div{
+                p1{
+                    grid-area: p1;
+                    font-size: 15px;
+                    font-family: 'PT Mono', monospace;
+                }
+
+                p2{
+                    grid-area: p2;
+                    font-size: 15px;
+                    font-family: 'PT Mono', monospace;
+                }
+                
+
+                h4{
+                    font-size: 50px;
+                    font-family: 'PT Mono', monospace;
+                }
+            }
+        }   
 
     }
-
 }
