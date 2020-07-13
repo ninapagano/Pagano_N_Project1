@@ -85,6 +85,72 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/gallery/1.jpg": {
+		"ft": 16384,
+		"iS": 59649,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/2.jpg": {
+		"ft": 16384,
+		"iS": 69021,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/3.jpg": {
+		"ft": 16384,
+		"iS": 50592,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/4.jpg": {
+		"ft": 16384,
+		"iS": 80631,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/5.jpg": {
+		"ft": 16384,
+		"iS": 57629,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/6.jpg": {
+		"ft": 16384,
+		"iS": 30831,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/header/purpose.jpg": {
 		"ft": 16384,
 		"iS": 4285,
@@ -214,6 +280,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/slides/slide1.jpg": {
+		"ft": 16384,
+		"iS": 1068708,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/slides/slide1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/slides/slide2.jpg": {
+		"ft": 16384,
+		"iS": 228167,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/slides/slide2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/slides/slide3.jpg": {
+		"ft": 16384,
+		"iS": 356517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/slides/slide3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/slides/slide4.jpg": {
+		"ft": 16384,
+		"iS": 268195,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/slides/slide4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -221,6 +331,28 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 0
+		},
+	"/deploy/js/scripts-min-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/scripts-min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/deploy/js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/deploy/scripts-min.js": {
 		"bF": 0,
@@ -232,6 +364,30 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/content/about-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/about-content.html",
+		"oF": 0
+		},
+	"/dev/content/gallery-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gallery-content.html",
+		"oF": 0
+		},
+	"/dev/content/index-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/index-content.html",
+		"oF": 0
 		},
 	"/dev/extra": {
 		"cB": 0,
@@ -273,14 +429,6 @@
 		"oAP": "/dev/global/scripts.html",
 		"oF": 0
 		},
-	"/dev/index-content.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/index-content.html",
-		"oF": 0
-		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -288,6 +436,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/fancybox.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/fancybox-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -299,6 +458,44 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/js/tinyslider-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/tinyslider-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/tinyslider.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/tinyslider-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/planning.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/planning.html",
+		"oF": 0
+		},
+	"/dev/planning.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/planning.html",
+		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -439,6 +636,45 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_index-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/about-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/about-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/gallery-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/gallery-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/planning-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dev/scss/sections/planning-content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -923,7 +1159,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1250,7 +1486,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {

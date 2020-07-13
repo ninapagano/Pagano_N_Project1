@@ -337,6 +337,52 @@ ul {
   .grid-container > div {
     grid-area: container; }
 
+.about-container {
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+  .about-container h1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif; }
+    @media (min-width: 768px) {
+      .about-container h1 {
+        font-size: 3.4375rem; } }
+    @media (min-width: 768px) {
+      .about-container h1 {
+        font-size: 4.0625rem; } }
+    @media (min-width: 768px) {
+      .about-container h1 {
+        font-size: 4.6875rem; } }
+  .about-container p {
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-family: 'PT Mono', monospace;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .about-container p {
+        font-size: 1.125rem;
+        line-height: 22px;
+        padding-bottom: 30px;
+        text-align: center; } }
+    @media (min-width: 768px) {
+      .about-container p {
+        font-size: 1.25rem;
+        line-height: 24px;
+        padding-bottom: 40px;
+        text-align: center; } }
+    @media (min-width: 768px) {
+      .about-container p {
+        font-size: 1.375rem;
+        line-height: 27px;
+        padding-bottom: 40px;
+        text-align: center; } }
+.show-for-md {
+  display: none; }
+  @media (min-width: 768px) {
+    .show-for-md {
+      display: block; } }
 /* =============
     Typography
 ============= */
@@ -475,31 +521,37 @@ footer {
 /* =============
     home intro
 ============= */
-#intro-fash > div #intro {
+#intro-fash > div .intro article h1 {
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: 'Nanum Gothic', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px; }
+
+#intro-fash > div .intro article h2 {
+  font-size: 15px;
+  font-family: 'PT Mono', monospace;
   display: flex;
   justify-content: center; }
-  #intro-fash > div #intro article h1 {
-    padding-top: 100px;
-    font-size: 30px;
-    font-family: 'Nanum Gothic', sans-serif; }
-  #intro-fash > div #intro article h2 {
-    font-size: 15px;
-    font-family: 'PT Mono', monospace; }
-  #intro-fash > div #intro article h3 {
-    font-size: 50px;
-    font-family: 'PT Mono', monospace; }
 
-#intro-fash > div #paragraph-spacing {
+#intro-fash > div .intro article h3 {
+  font-size: 50px;
+  font-family: 'PT Mono', monospace; }
+
+#intro-fash > div .paragraph-spacing {
   display: grid;
   gap: 30px;
-  padding-top: 100px;
+  padding-top: 10px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "p1 p2"; }
-  #intro-fash > div #paragraph-spacing > div p1 {
+  grid-template-areas: "p1 p2";
+  font-size: 15px;
+  font-family: 'PT Mono', monospace; }
+  #intro-fash > div .paragraph-spacing p {
     grid-area: p1;
     font-size: 15px;
     font-family: 'PT Mono', monospace; }
-  #intro-fash > div #paragraph-spacing > div p2 {
+  #intro-fash > div .paragraph-spacing p {
     grid-area: p2;
     font-size: 15px;
     font-family: 'PT Mono', monospace; }
@@ -549,6 +601,12 @@ footer {
     grid-template-columns: repeat 3, 1fr;
     grid-template-areas: "l1 l2 l3" "nu1 no1 a1" "nu2 no2 a2" "nu3 no3 a3" "nb1 b2 b3";
     grid-gap: 10px; }
+  #index-brands > div li {
+    /*img {
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }*/ }
   #index-brands > div li:nth-child(1) {
     display: flex;
     justify-content: center;
@@ -565,38 +623,74 @@ footer {
     grid-area: nu1;
     display: flex;
     justify-content: center; }
+    #index-brands > div li:nth-child(4) img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   #index-brands > div li:nth-child(5) {
     grid-area: no1;
     display: flex;
     justify-content: center; }
+    #index-brands > div li:nth-child(5) img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   #index-brands > div li:nth-child(6) {
     grid-area: a1;
     display: flex;
     justify-content: center; }
+    #index-brands > div li:nth-child(6) img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   #index-brands > div li:nth-child(7) {
     grid-area: nu2;
     display: flex;
     justify-content: center; }
+    #index-brands > div li:nth-child(7) img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   #index-brands > div li:nth-child(8) {
     grid-area: no2;
     display: flex;
     justify-content: center; }
+    #index-brands > div li:nth-child(8) img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   #index-brands > div li:nth-child(9) {
     grid-area: a2;
     display: flex;
     justify-content: center; }
+    #index-brands > div li:nth-child(9) img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   #index-brands > div li:nth-child(10) {
     grid-area: nu3;
     display: flex;
     justify-content: center; }
+    #index-brands > div li:nth-child(10) img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   #index-brands > div li:nth-child(11) {
     grid-area: no3;
     display: flex;
     justify-content: center; }
+    #index-brands > div li:nth-child(11) img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   #index-brands > div li:nth-child(12) {
     grid-area: a3;
     display: flex;
     justify-content: center; }
+    #index-brands > div li:nth-child(12) img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%; }
   #index-brands > div li:nth-child(13) {
     grid-area: nb1;
     padding: 30px;
@@ -694,3 +788,104 @@ footer {
     }
 
 } */
+/* =============
+    about container
+============= */
+#about-intro > div #body {
+  display: flex;
+  justify-content: center; }
+  #about-intro > div #body article h1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif; }
+  #about-intro > div #body article p {
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-family: 'PT Mono', monospace; }
+
+#about-slides > div .my-slider div img {
+  height: 800px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center; }
+
+#about-closing > div #close {
+  display: flex;
+  justify-content: center; }
+  #about-closing > div #close article h1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif; }
+  #about-closing > div #close article p {
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-family: 'PT Mono', monospace; }
+
+#index-brands {
+  display: flex;
+  justify-content: center; }
+  #index-brands > div article {
+    /*ul{
+                display: grid;
+                grid-template-columns: repeat (4,1fr);
+                grid-template-areas: ". g1 g2 ."
+                                    ". g3 g4 ."
+                                    ". g5 g6 .";
+                grid-gap: 10px;
+                
+            }
+
+            li:nth-child(1) {
+                @include md {
+                    display:flex;
+                    justify-content: center;
+                    grid-area: g1;
+                }
+            }
+
+            li:nth-child(2) {
+                @include md {
+                    grid-area: g2;
+                    display:flex;
+                    justify-content: center;
+                }
+            }
+
+                li:nth-child(3) {
+                    @include md {
+                        grid-area: g3;
+                        display:flex;
+                        justify-content: center;
+                    }
+                }
+
+                li:nth-child(4) {
+                    @include md {
+                        grid-area: g4;
+                        display:flex;
+                        justify-content: center;
+                    }
+                }
+
+                li:nth-child(5) {
+                    @include lg {
+                        grid-area: g5;
+                        display:flex;
+                        justify-content: center;
+                    }
+                }
+                li:nth-child(6) {
+                    @include lg{
+                        grid-area: g6;
+                        display:flex;
+                        justify-content: center;
+                    }
+                }
+                */ }
+    #index-brands > div article h1 {
+      padding-top: 50px;
+      padding-bottom: 40px;
+      font-size: 30px;
+      font-family: 'Nanum Gothic', sans-serif; }

@@ -1,0 +1,67 @@
+/* =============
+    about container
+============= */
+
+#about-intro{
+    >div{
+        #body{
+            display: flex;
+            justify-content: center;
+
+            article{
+                h1{
+                    padding-top: 50px;
+                    padding-bottom: 40px;
+                    font-size: 30px;
+                    font-family: 'Nanum Gothic', sans-serif;
+                }
+        
+                p{
+                    padding-bottom: 25px;
+                    font-size: 15px;
+                    font-family: 'PT Mono', monospace;
+                }
+            }
+        }
+    }
+}
+    #about-slides{
+        >div{
+            .my-slider{
+                div{
+                    img{
+                        height: 800px;
+                        width: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+            }
+        } 
+    }
+
+
+#about-closing{
+    >div{
+        #close{
+            display: flex;
+            justify-content: center;
+
+            article{
+                h1{
+                    padding-top: 50px;
+                    padding-bottom: 40px;
+                    font-size: 30px;
+                    font-family: 'Nanum Gothic', sans-serif;
+                }
+        
+                p{
+                    padding-bottom: 25px;
+                    font-size: 15px;
+                    font-family: 'PT Mono', monospace;
+                }
+            }
+        }
+
+    }
+}

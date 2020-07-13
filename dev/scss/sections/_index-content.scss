@@ -3,20 +3,23 @@
 ============= */
 #intro-fash{
     >div{
-        #intro{
-            display: flex;
-            justify-content: center;
-
+        .intro{
             article{
                 h1{
-                    padding-top: 100px;
+                    padding-top: 40px;
                     font-size: 30px;
                     font-family: 'Nanum Gothic', sans-serif;
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 15px;
+
                 }
         
                 h2{
                     font-size: 15px;
                     font-family: 'PT Mono', monospace;
+                    display: flex;
+                    justify-content: center;
                 }
         
                 h3{
@@ -26,27 +29,28 @@
             }
         }
 
-        #paragraph-spacing{
+        .paragraph-spacing{
             display: grid;
             gap: 30px;
-            padding-top: 100px;
+            padding-top: 10px;
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas: "p1 p2";
-            
-                >div{
-                    p1{
+            font-size: 15px;
+                        font-family: 'PT Mono', monospace;
+                
+                    p{
                         grid-area: p1;
                         font-size: 15px;
                         font-family: 'PT Mono', monospace;
                     }
 
-                    p2{
+                    p{
                         grid-area: p2;
                         font-size: 15px;
                         font-family: 'PT Mono', monospace;
                     }
-                }
-        } 
+                
+        }
         
         article{
             h4{
@@ -118,7 +122,11 @@
             }
         
             li {
-                
+                /*img {
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }*/
            }
 
            li:nth-child(1) {
@@ -140,52 +148,97 @@
             }
 
             li:nth-child(4) {
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }
                 grid-area: nu1;
                 display:flex;
                 justify-content: center;
             }
 
             li:nth-child(5) {
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }
                 grid-area: no1;
                 display:flex;
                 justify-content: center;
             }
             li:nth-child(6) {
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }
                 grid-area: a1;
                 display:flex;
                 justify-content: center;
             }
             li:nth-child(7) {
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }
                 grid-area: nu2;
                 display:flex;
                 justify-content: center;
             }
 
             li:nth-child(8) {
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }
                 grid-area: no2;
                 display:flex;
                 justify-content: center;
             }
  
             li:nth-child(9) {
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }
                  grid-area: a2;
                  display:flex;
                  justify-content: center;
             }
  
             li:nth-child(10) {
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }
                  grid-area: nu3;
                  display:flex;
                 justify-content: center;
             }
  
             li:nth-child(11) {
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }
                  grid-area: no3;
                  display:flex;
                 justify-content: center;
             }
  
             li:nth-child(12) {
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width:100%;
+                }
                  grid-area: a3;
                  display:flex;
                 justify-content: center;
@@ -310,3 +363,5 @@
     }
 
 } */
+
+

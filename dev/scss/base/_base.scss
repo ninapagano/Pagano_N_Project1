@@ -28,3 +28,68 @@ ul{
     }
 }
 
+.about-container{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    h1{
+        padding-top: 50px;
+        padding-bottom: 40px;
+        font-size: 30px;
+        font-family: 'Nanum Gothic', sans-serif;
+
+        @include md{
+            font-size: rem-calc(55);
+        }
+
+        @include md{
+            font-size: rem-calc(65);
+        }
+
+        @include md{
+            font-size: rem-calc(75);
+        }
+    }
+
+    p{
+        padding-bottom: 25px;
+        font-size: 15px;
+        font-family: 'PT Mono', monospace;
+        text-align: center;
+
+        @include md{
+            font-size: rem-calc(18);
+            line-height: 22px;
+            padding-bottom: 30px;
+            text-align: center;
+
+        }
+
+        @include md{
+            font-size: rem-calc(20);
+            line-height: 24px;
+            padding-bottom: 40px;
+            text-align: center;
+
+        }
+
+        @include md{
+            font-size: rem-calc(22);
+            line-height: 27px;
+            padding-bottom: 40px;
+            text-align: center;
+
+        }
+    }
+}
+
+.show-for-md{
+    display: none;
+    @include md{
+        display:block;
+    }
+}
+
+
