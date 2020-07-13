@@ -273,6 +273,14 @@
 		"oAP": "/dev/global/scripts.html",
 		"oF": 0
 		},
+	"/dev/index-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/index-content.html",
+		"oF": 0
+		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -422,7 +430,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_section-1.scss": {
+	"/dev/scss/sections/_index-content.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -430,20 +438,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_section-2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-2.css",
+		"oAP": "/dev/scss/sections/_index-content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -460,22 +455,6 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/section-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section-1.html",
-		"oF": 0
-		},
-	"/dev/section-2.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/section-2.html",
-		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,

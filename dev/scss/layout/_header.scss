@@ -13,6 +13,7 @@ header{
         font-family:'Nanum Gothic', sans-serif;
 
         #logo-container{
+            border: 1px red solid;
             grid-area: t1;
             display: flex;
             justify-content: center;
@@ -34,30 +35,31 @@ header{
         }
 
         #login-container{
-            
+            border: 1px red solid;
             grid-area: t2;
             display: flex;
             justify-content: center;
         }
 
         #brands-container{
-            
+            border: 1px red solid;
             grid-area: t3;
             display: flex;
             justify-content: center;
         }
         #about-container{
-         
+            border: 1px red solid;
             grid-area: t4;
             display: flex;
             justify-content: center;
         }
 
         #burger-container{
+            border: 1px red solid;
             grid-area: t5;
             font-size: rem-calc(30);
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
         }
     }
 }
