@@ -1,1 +1,1 @@
-console.log("hello fancy box"),console.log("tiny slider is working"),$(document).ready((function(){console.log("test")}));
+console.log("hello fancy box"),console.log("tiny slider is working"),tns({container:".my-slider",items:3,slideBy:"page",autoplay:!0}),$(document).ready((function(){console.log("test")}));

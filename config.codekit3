@@ -354,13 +354,13 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/deploy/scripts-min.js": {
+	"/deploy/js/tinyslider-min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/scripts-min-min.js",
+		"oAP": "/deploy/js/tinyslider-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -387,6 +387,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/index-content.html",
+		"oF": 0
+		},
+	"/dev/content/instagram-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/instagram-content.html",
 		"oF": 0
 		},
 	"/dev/extra": {
@@ -459,17 +467,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/tinyslider-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/tinyslider-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/tinyslider.js": {
 		"bF": 0,
 		"ft": 64,
@@ -480,22 +477,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/dev/planning.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/planning.html",
-		"oF": 0
-		},
-	"/dev/planning.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/planning.html",
-		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -640,6 +621,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_instagram-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_instagram-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/about-content.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -662,19 +656,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/gallery-content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/planning-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dev/scss/sections/planning-content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1878,7 +1859,7 @@
 			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
