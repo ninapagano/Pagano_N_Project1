@@ -151,6 +151,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/hanger.jpg": {
+		"ft": 16384,
+		"iS": 95675,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/hanger.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/header/purpose.jpg": {
 		"ft": 16384,
 		"iS": 4285,
@@ -371,6 +382,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/about-content.html",
+		"oF": 0
+		},
+	"/dev/content/contact-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/contact-content.html",
 		"oF": 0
 		},
 	"/dev/content/gallery-content.kit": {
@@ -643,6 +662,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/about-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/contact-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/contact-content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

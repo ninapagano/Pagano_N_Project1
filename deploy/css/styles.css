@@ -889,3 +889,22 @@ footer {
       padding-bottom: 40px;
       font-size: 30px;
       font-family: 'Nanum Gothic', sans-serif; }
+
+#contact-intro {
+  background-image: url("../img/hanger.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 360px;
+  display: flex; }
+  @media (min-width: 768px) {
+    #contact-intro {
+      height: 683px; } }
+  #contact-intro img {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px; }
+
+#contact-map #map {
+  width: 100%;
+  height: 400px; }

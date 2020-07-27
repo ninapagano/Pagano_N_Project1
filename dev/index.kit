@@ -6,14 +6,33 @@
 <body>
 
     
-
-    <!-- @import "global/scripts.kit" -->
     <!-- @import "global/header.kit" -->
     <!-- @import "content/index-content.kit" -->
     <!-- @import "content/about-content.kit" -->
     <!-- @import "content/gallery-content.kit" -->
     <!-- @import "content/instagram-content.kit" -->
+    <!-- @import "content/contact-content.kit" -->
     <!-- @import "global/footer.kit" -->
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var uluru = {lat: -25.344, lng: 131.036};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 4, center: uluru});
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVSsd7pgM-9K3N986pft1o1WWRVYEXIEE&callback=initMap">
+            </script>
+          </body>
+        </html>
+
+    <!-- @import "global/scripts.kit" -->
 
     
 </body>
