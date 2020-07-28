@@ -430,7 +430,7 @@ textarea {
   align-items: center;
   background-color: #fff;
   bottom: 0;
-  display: none;
+  display: flex;
   height: 100vh;
   justify-content: center;
   left: 0;
@@ -444,10 +444,12 @@ textarea {
     padding: 20px 0; }
     #main-nav ul li a:link,
     #main-nav ul li a:visited {
-      color: #000; }
+      color: #000;
+      transition: 0.25; }
     #main-nav ul li:hover, #main-nav ul li:active {
       background-color: #000;
-      padding: 20px; }
+      padding: 20px;
+      transition: 0.25; }
       #main-nav ul li:hover h2, #main-nav ul li:active h2 {
         color: #fff; }
 
@@ -455,13 +457,13 @@ textarea {
     Header
 ============= */
 header {
+  background-color: #fff;
   border-bottom: 15px #000 solid;
+  left: 0;
   padding-top: 15px;
-  width: 100%;
   position: fixed;
   top: 0;
-  left: 0;
-  background-color: #fff;
+  width: 100%;
   z-index: 100; }
   header div {
     display: grid;
@@ -485,23 +487,45 @@ header {
       display: flex;
       grid-area: t2;
       justify-content: center; }
+      header div #login-container a:link h2, header div #login-container a:visited h2 {
+        color: #000; }
+      header div #login-container a:hover h2, header div #login-container a:active h2 {
+        transition: 0.25;
+        color: #FF4500; }
     header div #brands-container {
       align-items: center;
       display: flex;
       grid-area: t3;
       justify-content: center; }
+      header div #brands-container a:link h2, header div #brands-container a:visited h2 {
+        color: #000; }
+      header div #brands-container a:hover h2, header div #brands-container a:active h2 {
+        transition: 0.25;
+        color: #FF4500; }
     header div #about-container {
       align-items: center;
       display: flex;
       grid-area: t4;
       justify-content: center; }
+      header div #about-container a:link h2, header div #about-container a:visited h2 {
+        color: #000; }
+      header div #about-container a:hover h2, header div #about-container a:active h2 {
+        transition: 0.25;
+        color: #FF4500; }
     header div #burger-container {
       align-items: center;
       display: flex;
       grid-area: t5;
       justify-content: center; }
       header div #burger-container #burger {
-        cursor: pointer; }
+        cursor: pointer;
+        transition: 0.25; }
+        header div #burger-container #burger #lines {
+          transition: 0.25;
+          fill: #000; }
+        header div #burger-container #burger:hover #lines {
+          transition: 0.25;
+          fill: #FF4500; }
 
 /* =============
     Footer

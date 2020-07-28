@@ -525,6 +525,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/main-nav/burger-animation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/burger-animation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/main-nav/burger-click.js": {
 		"bF": 0,
 		"ft": 64,
@@ -532,17 +543,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/main-nav/burger-click-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/main-nav/main-nav-click.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/main-nav/main-nav-click-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

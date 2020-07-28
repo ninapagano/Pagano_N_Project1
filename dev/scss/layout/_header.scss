@@ -2,13 +2,13 @@
     Header
 ============= */
 header {
+    background-color: $white;
     border-bottom: 15px $black solid;
+    left: 0;
     padding-top: 15px;
-    width: 100%;
     position: fixed;
     top: 0;
-    left: 0;
-    background-color: $white;
+    width: 100%;
     z-index: 100;
 
     div {
@@ -41,6 +41,18 @@ header {
             display: flex;
             grid-area: t2;
             justify-content: center;
+                        
+            a:link,a:visited{
+                h2{
+                    color: $black;
+                }
+            }
+            a:hover,a:active{
+                h2{
+                    transition: 0.25;
+                    color: $orange;
+                }
+            }
         }
 
         #brands-container {
@@ -48,6 +60,18 @@ header {
             display: flex;
             grid-area: t3;
             justify-content: center;
+
+            a:link,a:visited{
+                h2{
+                    color: $black;
+                }
+            }         
+            a:hover,a:active{
+                h2{
+                    transition: 0.25;
+                    color: $orange;
+                }
+            }
         }
 
         #about-container {
@@ -55,6 +79,17 @@ header {
             display: flex;
             grid-area: t4;
             justify-content: center;
+            a:link,a:visited{
+                h2{
+                    color: $black;
+                }
+            }
+            a:hover,a:active{
+                h2{
+                    transition: 0.25;
+                    color: $orange;
+                }
+            }
         }
 
         #burger-container {
@@ -63,8 +98,21 @@ header {
             grid-area: t5;
             justify-content: center;
 
-            #burger{
+            #burger {
                 cursor: pointer;
+                transition: 0.25;
+
+                #lines {
+                    transition: 0.25;
+                    fill: $black;
+                }
+
+                &:hover{
+                    #lines{
+                        transition: 0.25;
+                        fill: $orange;
+                    }
+                }
             }
         }
     }

@@ -1,8 +1,14 @@
 console.log("tiny slider is working");
 
-tns({
-    container: '.my-slider',
-    items: 3,
-    slideBy: 'page',
-    autoplay: true
-  });
+$(document).ready(function () {
+
+  console.log($(".slides").hasClass("my-slider"));
+  if ($(".slides").hasClass("my-slider")) {
+      tns({
+          container: '.my-slider',
+          items: 1,
+          slideBy: 'page',
+          autoplay: true
+      });
+  }
+});
