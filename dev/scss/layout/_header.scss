@@ -1,65 +1,71 @@
 /* =============
     Header
 ============= */
-header{
+header {
     border-bottom: 15px $black solid;
     padding-top: 15px;
-    
-    div{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $white;
+    z-index: 100;
 
+    div {
         display: grid;
-        grid-template-columns: repeat(8,1fr);
+        font-family: 'Nanum Gothic', sans-serif;
         grid-template-areas: "t1 t2 t3 t4 . . . t5";
-        font-family:'Nanum Gothic', sans-serif;
+        grid-template-columns: repeat(8, 1fr);
 
-        #logo-container{
-            border: 1px red solid;
-            grid-area: t1;
+        #logo-container {
+            align-items: center;
             display: flex;
+            grid-area: t1;
             justify-content: center;
-            padding: 10px;
 
-            div{
-
-                img{
-                    max-width: 100%;
-                    max-height: 100%;
+            div {
+                img {
                     display: block;
-                
+                    max-height: 100%;
+                    max-width: 100%;
 
-                    @include md{
+                    @include md {
                         width: initial;
                     }
                 }
             }
         }
 
-        #login-container{
-            border: 1px red solid;
+        #login-container {
+            align-items: center;
+            display: flex;
             grid-area: t2;
-            display: flex;
             justify-content: center;
         }
 
-        #brands-container{
-            border: 1px red solid;
+        #brands-container {
+            align-items: center;
+            display: flex;
             grid-area: t3;
-            display: flex;
-            justify-content: center;
-        }
-        #about-container{
-            border: 1px red solid;
-            grid-area: t4;
-            display: flex;
             justify-content: center;
         }
 
-        #burger-container{
-            border: 1px red solid;
-            grid-area: t5;
-            font-size: rem-calc(30);
+        #about-container {
+            align-items: center;
             display: flex;
+            grid-area: t4;
             justify-content: center;
+        }
+
+        #burger-container {
+            align-items: center;
+            display: flex;
+            grid-area: t5;
+            justify-content: center;
+
+            #burger{
+                cursor: pointer;
+            }
         }
     }
 }

@@ -9,6 +9,22 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/deploy/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/about.html",
+		"oF": 0
+		},
+	"/deploy/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/contact.html",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -18,6 +34,14 @@
 		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/deploy/gallery.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/gallery.html",
+		"oF": 0
 		},
 	"/deploy/img/brands/A-logo.jpg": {
 		"ft": 16384,
@@ -343,27 +367,13 @@
 		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
-	"/deploy/js/nav-global.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"/deploy/instagram.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/js/nav-global-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/js/scripts-min-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oAP": "/deploy/instagram.html",
+		"oF": 0
 		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
@@ -376,16 +386,21 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/deploy/js/tinyslider-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"/dev/about.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/js/tinyslider-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oAP": "/dev/about.html",
+		"oF": 0
+		},
+	"/dev/contact.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/contact.html",
+		"oF": 0
 		},
 	"/dev/content/about-content.kit": {
 		"cB": 0,
@@ -435,6 +450,14 @@
 		"oAP": "/dev/extra",
 		"oF": 0
 		},
+	"/dev/gallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/gallery.html",
+		"oF": 0
+		},
 	"/dev/global/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -459,6 +482,14 @@
 		"oAP": "/dev/global/header.html",
 		"oF": 0
 		},
+	"/dev/global/main-nav.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/main-nav.html",
+		"oF": 0
+		},
 	"/dev/global/scripts.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -472,8 +503,16 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 2
+		"oAP": "/dev/index.html",
+		"oF": 0
+		},
+	"/dev/instagram.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/instagram.html",
+		"oF": 0
 		},
 	"/dev/js/fancybox.js": {
 		"bF": 0,
@@ -486,14 +525,47 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/main-nav/burger-click.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/burger-click-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/main-nav-click.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/main-nav-click-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/nav-global.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/nav-global-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/scripts-min.js",
-		"oF": 2,
+		"oAP": "/dev/js/scripts-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -638,6 +710,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_about-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_about-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_contact-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_contact-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_gallery-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_gallery-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/sections/_index-content.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -664,45 +775,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/about-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/about-content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/contact-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/contact-content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/gallery-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/gallery-content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -711,8 +783,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/css/styles.css",
-		"oF": 2,
+		"oAP": "/dev/scss/styles.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},

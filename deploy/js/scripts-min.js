@@ -1,1 +1,1 @@
-console.log("hello fancy box"),console.log("tiny slider is working"),tns({container:".my-slider",items:3,slideBy:"page",autoplay:!0}),$(document).ready((function(){console.log("test")}));
+function hideShowMainNav(){console.log("hide or show main nav"),$("#main-nav").toggle}console.log("hello fancy box"),console.log("tiny slider is working"),tns({container:".my-slider",items:3,slideBy:"page",autoplay:!0}),$("#burger").on("click",hideShowMainNav),$(document).ready((function(){console.log("test")}));

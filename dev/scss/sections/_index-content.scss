@@ -2,6 +2,7 @@
     home intro
 ============= */
 #intro-fash{
+    margin-top: 10%;
     >div{
         .intro{
             article{
@@ -29,7 +30,7 @@
             }
         }
 
-        .paragraph-spacing{
+        #intro-paragraphs{
             display: grid;
             gap: 30px;
             padding-top: 10px;
@@ -44,7 +45,7 @@
                         font-family: 'PT Mono', monospace;
                     }
 
-                    p{
+                    p:last-child{
                         grid-area: p2;
                         font-size: 15px;
                         font-family: 'PT Mono', monospace;

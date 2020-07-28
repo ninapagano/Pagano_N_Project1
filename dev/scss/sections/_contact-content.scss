@@ -1,12 +1,11 @@
 #contact-intro{
+  
     background-image: url('../img/hanger.jpg');
     background-position: center center;
     background-size: cover;
     height: 360px;
     display: flex;
-  
-    @media (max-width: 2000px){
-    }
+    margin-top: 10%;
   
     @include md {
         height: 683px;

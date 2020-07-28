@@ -327,6 +327,9 @@ ul {
   ul li {
     list-style: none; }
 
+a {
+  text-decoration: none; }
+
 .grid-container {
   display: grid;
   grid-template-columns: 15px auto 15px;
@@ -423,51 +426,82 @@ textarea {
 /* =============
     Navigation
 ============= */
+#main-nav {
+  align-items: center;
+  background-color: #fff;
+  bottom: 0;
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 90; }
+  #main-nav ul li {
+    padding: 20px 0; }
+    #main-nav ul li a:link,
+    #main-nav ul li a:visited {
+      color: #000; }
+    #main-nav ul li:hover, #main-nav ul li:active {
+      background-color: #000;
+      padding: 20px; }
+      #main-nav ul li:hover h2, #main-nav ul li:active h2 {
+        color: #fff; }
+
 /* =============
     Header
 ============= */
 header {
   border-bottom: 15px #000 solid;
-  padding-top: 15px; }
+  padding-top: 15px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 100; }
   header div {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    font-family: 'Nanum Gothic', sans-serif;
     grid-template-areas: "t1 t2 t3 t4 . . . t5";
-    font-family: 'Nanum Gothic', sans-serif; }
+    grid-template-columns: repeat(8, 1fr); }
     header div #logo-container {
-      border: 1px red solid;
-      grid-area: t1;
+      align-items: center;
       display: flex;
-      justify-content: center;
-      padding: 10px; }
+      grid-area: t1;
+      justify-content: center; }
       header div #logo-container div img {
-        max-width: 100%;
+        display: block;
         max-height: 100%;
-        display: block; }
+        max-width: 100%; }
         @media (min-width: 768px) {
           header div #logo-container div img {
             width: initial; } }
     header div #login-container {
-      border: 1px red solid;
-      grid-area: t2;
+      align-items: center;
       display: flex;
+      grid-area: t2;
       justify-content: center; }
     header div #brands-container {
-      border: 1px red solid;
-      grid-area: t3;
+      align-items: center;
       display: flex;
+      grid-area: t3;
       justify-content: center; }
     header div #about-container {
-      border: 1px red solid;
-      grid-area: t4;
+      align-items: center;
       display: flex;
+      grid-area: t4;
       justify-content: center; }
     header div #burger-container {
-      border: 1px red solid;
-      grid-area: t5;
-      font-size: 1.875rem;
+      align-items: center;
       display: flex;
+      grid-area: t5;
       justify-content: center; }
+      header div #burger-container #burger {
+        cursor: pointer; }
 
 /* =============
     Footer
@@ -480,7 +514,8 @@ footer {
       padding: 10px;
       font-family: 'Nanum Gothic', sans-serif;
       font-size: 30px;
-      border-bottom: 15px black solid; }
+      border-bottom: 15px black solid;
+      width: 100%; }
     footer > div p {
       font-family: 'PT Mono', monospace;
       padding: 30px;
@@ -521,44 +556,42 @@ footer {
 /* =============
     home intro
 ============= */
-#intro-fash > div .intro article h1 {
-  padding-top: 40px;
-  font-size: 30px;
-  font-family: 'Nanum Gothic', sans-serif;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 15px; }
-
-#intro-fash > div .intro article h2 {
-  font-size: 15px;
-  font-family: 'PT Mono', monospace;
-  display: flex;
-  justify-content: center; }
-
-#intro-fash > div .intro article h3 {
-  font-size: 50px;
-  font-family: 'PT Mono', monospace; }
-
-#intro-fash > div .paragraph-spacing {
-  display: grid;
-  gap: 30px;
-  padding-top: 10px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "p1 p2";
-  font-size: 15px;
-  font-family: 'PT Mono', monospace; }
-  #intro-fash > div .paragraph-spacing p {
-    grid-area: p1;
+#intro-fash {
+  margin-top: 10%; }
+  #intro-fash > div .intro article h1 {
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px; }
+  #intro-fash > div .intro article h2 {
+    font-size: 15px;
+    font-family: 'PT Mono', monospace;
+    display: flex;
+    justify-content: center; }
+  #intro-fash > div .intro article h3 {
+    font-size: 50px;
+    font-family: 'PT Mono', monospace; }
+  #intro-fash > div #intro-paragraphs {
+    display: grid;
+    gap: 30px;
+    padding-top: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "p1 p2";
     font-size: 15px;
     font-family: 'PT Mono', monospace; }
-  #intro-fash > div .paragraph-spacing p {
-    grid-area: p2;
-    font-size: 15px;
+    #intro-fash > div #intro-paragraphs p {
+      grid-area: p1;
+      font-size: 15px;
+      font-family: 'PT Mono', monospace; }
+    #intro-fash > div #intro-paragraphs p:last-child {
+      grid-area: p2;
+      font-size: 15px;
+      font-family: 'PT Mono', monospace; }
+  #intro-fash > div article h4 {
+    font-size: 50px;
     font-family: 'PT Mono', monospace; }
-
-#intro-fash > div article h4 {
-  font-size: 50px;
-  font-family: 'PT Mono', monospace; }
 
 /* =============
     READ BUTTON
@@ -791,18 +824,20 @@ footer {
 /* =============
     about container
 ============= */
-#about-intro > div #body {
-  display: flex;
-  justify-content: center; }
-  #about-intro > div #body article h1 {
-    padding-top: 50px;
-    padding-bottom: 40px;
-    font-size: 30px;
-    font-family: 'Nanum Gothic', sans-serif; }
-  #about-intro > div #body article p {
-    padding-bottom: 25px;
-    font-size: 15px;
-    font-family: 'PT Mono', monospace; }
+#about-intro {
+  margin-top: 10%; }
+  #about-intro > div #body {
+    display: flex;
+    justify-content: center; }
+    #about-intro > div #body article h1 {
+      padding-top: 50px;
+      padding-bottom: 40px;
+      font-size: 30px;
+      font-family: 'Nanum Gothic', sans-serif; }
+    #about-intro > div #body article p {
+      padding-bottom: 25px;
+      font-size: 15px;
+      font-family: 'PT Mono', monospace; }
 
 #about-slides > div .my-slider div img {
   height: 800px;
@@ -824,6 +859,7 @@ footer {
     font-family: 'PT Mono', monospace; }
 
 #index-brands {
+  margin-top: 10%;
   display: flex;
   justify-content: center; }
   #index-brands > div article {
@@ -890,12 +926,19 @@ footer {
       font-size: 30px;
       font-family: 'Nanum Gothic', sans-serif; }
 
+#instagram-intro {
+  margin-top: 10%;
+  padding: 25px 0; }
+  #instagram-intro h1 {
+    text-align: center; }
+
 #contact-intro {
   background-image: url("../img/hanger.jpg");
   background-position: center center;
   background-size: cover;
   height: 360px;
-  display: flex; }
+  display: flex;
+  margin-top: 10%; }
   @media (min-width: 768px) {
     #contact-intro {
       height: 683px; } }

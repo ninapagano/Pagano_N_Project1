@@ -1,3 +1,39 @@
 /* =============
     Navigation
 ============= */
+#main-nav {
+    align-items: center;
+    background-color: $white;
+    bottom: 0;
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+
+    ul {
+        li {
+            padding: 20px 0;
+
+            a:link,
+            a:visited {
+                color: $black;
+            }
+
+            &:hover,
+            &:active {
+                background-color: $black;
+                padding: 20px;
+
+                h2 {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
